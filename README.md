@@ -1,5 +1,5 @@
 # why-now
-overview of protocol
+Overview of protocol
 
 
 Zero Authority DAO & Trajan Social Endorsements On Chain
