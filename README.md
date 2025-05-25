@@ -10,7 +10,7 @@ Zero Authority DAO is a thriving community of members and contributors dedicated
 - **Bounties onchain**
 - **DAOs onchain**
 
-[Visit our website](https://zeroauthority.xyz/)
+[Visit our website]
 
 ### Strategic Vision
 **Vision Statement**  
