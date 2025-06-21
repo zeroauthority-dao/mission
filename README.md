@@ -10,8 +10,6 @@ Zero Authority DAO is a thriving community of members and contributors dedicated
 - **Bounties onchain**
 - **DAOs onchain**
 
-[Visit our website]
-
 ### Strategic Vision
 **Vision Statement**  
 We envision becoming the reputation management protocol for Web3, setting the standard for decentralized organizational integrity and trust. By 2030 and beyond, our aim is to empower new and existing companies to seamlessly transition into decentralized autonomous organizations (DAOs), providing comprehensive solutions for legal, compliance, security, and employee and freelancer contractors' management.
