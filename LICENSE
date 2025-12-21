@@ -1,76 +1,48 @@
-Business Source License (BSL) v1.0 with explicit commercial-use permission and contact clause
 
----
+Business Source License (BSL) v1.0
 
-### Summary
+Summary
+Add a Business Source License (BSL) v1.0 to ZeroAuthorityDAO repositories, effective January 1, 2022. The license explicitly permits use of the most recent commercial version and includes a clear contact clause for commercial or ambiguous use cases.
 
-Introduce a Business Source License (BSL) v1.0 for ZeroAuthorityDAO codebases, effective January 1, 2022, with a clear grant allowing use of the **most recent commercial version**, plus an explicit escalation/contact clause for ambiguous or out-of-scope use.
+Motivation
+Current licensing does not clearly state:
 
-This aligns licensing intent with real-world usage while reducing ambiguity and accidental non-compliance.
+* whether the most recent commercial version may be used by default
+* how users should handle edge cases or out-of-scope use
+* when and how the code converts to an open-source license
 
----
+This creates unnecessary ambiguity for builders and contributors.
 
-### Motivation
+What this change includes
 
-Current licensing language does not clearly:
+* Business Source License (BSL) v1.0
+* Effective Date: January 1, 2022
+* Change Date: January 1, 2026 (or earlier at ZA’s election)
+* Change License: Apache License 2.0
+* Explicit permission to use the Permitted Commercial Version
+* Restriction on competing commercial services prior to the Change Date
+* Commercial inquiries clause directing users to [https://linktr.ee/zeroauthoritydao](https://linktr.ee/zeroauthoritydao)
 
-* Allow use of the most recent commercial version by default
-* Channel edge cases into human discussion instead of legal risk
-* Define a clear Change Date and post-conversion open-source path
+Why this matters
 
-BSL is designed to set strong defaults while keeping the door open for collaboration, not litigation.
-
----
-
-### What’s Included
-
-* **Business Source License (BSL) v1.0**
-* **Effective Date:** January 1, 2022
-* **Change Date:** January 1, 2026 (or earlier at ZA’s election)
-* **Change License:** Apache 2.0 (default)
-* Explicit permission to use the **Permitted Commercial Version**
-* Clear restriction on competing hosted services prior to Change Date
-* Dedicated **Commercial Inquiries & Permissions** clause pointing to:
-  [https://linktr.ee/zeroauthoritydao](https://linktr.ee/zeroauthoritydao)
-
----
-
-### Proposed License Text
-
-(see full draft below / attached in this issue)
-
-> Business Source License (BSL) — ZeroAuthorityDAO
-> Version 1.0 — Effective Date: January 1, 2022
->
-> Includes definitions, grant of rights, usage limitations, commercial escalation path, Change Date conversion, and standard warranty/liability disclaimers.
-
----
-
-### Why This Matters
-
-* Makes commercial intent explicit instead of implied
+* Clarifies commercial rights and boundaries
 * Reduces accidental license violations
-* Encourages builders to engage rather than fork quietly
-* Keeps protocol + platform aligned with long-term open-source conversion
+* Encourages direct engagement instead of silent forks
+* Preserves a clear path to open source
 
-Subtle but important: ambiguity is routed to conversation, not courtrooms.
+Acceptance criteria
 
----
+* License file added at repo root
+* README updated to reference the new license
+* Effective Date and Change Date clearly stated
+* Commercial contact clause included
 
-### Open Follow-Ups (Optional, Not Blocking)
+Optional follow-ups
 
 * Define “competing commercial service” more narrowly
 * Split licensing between protocol contracts and platform / agent code
-* Add SPDX identifier once finalized
+* Add SPDX identifier
 
 ---
 
-### Acceptance Criteria
-
-* License file added to repo root
-* README references updated license
-* Effective Date and Change Date clearly stated
-* Contact clause included verbatim
-
----
-
+This is intentionally boring in the best way. Licenses should read like physics, not poetry.
