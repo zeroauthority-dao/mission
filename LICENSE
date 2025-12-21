@@ -1,21 +1,79 @@
-MIT License
+## **Business Source License (BSL) — ZeroAuthorityDAO**
 
-Copyright (c) 2024 Zero Authority DAO
+**Version 1.0 — Effective Date: January 1, 2022**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+### 1. Definitions
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+In this License:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+* **“Licensed Work”** means the software code, documentation, and associated materials made available by ZeroAuthorityDAO at or around **[https://www.zeroauthoritydao.com/](https://www.zeroauthoritydao.com/)**, including all updates released under this License.
+* **“Commercial Use”** means providing the Licensed Work or a derivative thereof for a fee, subscription, or other commercial benefit, including as a hosted service.
+* **“Permitted Commercial Version”** means the most recent commercial release of the Licensed Work as designated by ZeroAuthorityDAO and formally published on [https://www.zeroauthoritydao.com/](https://www.zeroauthoritydao.com/) or its official repositories.
+* **“Change Date”** means the earlier of:
+
+  1. **January 1, 2026**, or
+  2. The date ZeroAuthorityDAO elects to re-license the Licensed Work under the Change License.
+* **“Change License”** means the open-source license selected to govern the Licensed Work after the Change Date (default: **Apache License 2.0**).
+
+### 2. Grant of Rights
+
+Subject to all terms below:
+
+#### 2.1. Access and Use
+
+You are granted a worldwide, non-exclusive, royalty-free, non-sublicensable, non-transferable license to:
+
+a. **Use, copy, modify, and create derivative works** of the Licensed Work for internal, academic, research, or commercial purposes, provided you comply with this License.
+
+b. **Use the Permitted Commercial Version**, including the most recent commercial release, for commercial use (including hosting, distribution, and sale) without additional permission from ZeroAuthorityDAO.
+
+#### 2.2. Distribution
+
+You may distribute modifications or derivative works provided that:
+
+a. This License is included in full.
+
+b. All material changes are clearly documented.
+
+c. The Licensed Work or derivatives are not re-licensed under another open-source license prior to the Change Date.
+
+### 3. Usage Limitations
+
+Until the **Change Date**:
+
+a. You may not offer the Licensed Work or derivative works as a **competing commercial product or hosted service**, except when using a Permitted Commercial Version or under a separate commercial agreement with ZeroAuthorityDAO.
+
+b. You may not remove, alter, or circumvent this License.
+
+### 4. Commercial Inquiries and Permissions
+
+If your intended use may fall outside the permissions granted by this License, or if you wish to enter into a separate commercial agreement, you must **get in touch with Zero Authority and the Trajan Foundation** via:
+
+**[https://linktr.ee/zeroauthoritydao](https://linktr.ee/zeroauthoritydao)**
+
+### 5. Change Date and License Conversion
+
+On the **Change Date**, this License automatically converts to the **Change License**:
+
+a. All usage limitations expire.
+
+b. The Licensed Work may thereafter be used, modified, and distributed under the Change License.
+
+### 6. Attribution and Notices
+
+All copyright, trademark, and license notices must be preserved.
+
+### 7. Disclaimer of Warranty
+
+THE LICENSED WORK IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND.
+
+### 8. Limitation of Liability
+
+ZEROAUTHORITYDAO SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING FROM USE OF THE LICENSED WORK.
+
+### 9. Governing Law
+
+This License is governed by the laws of **[Insert Jurisdiction]**.
+
+---
+
