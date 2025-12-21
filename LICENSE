@@ -1,79 +1,76 @@
-## **Business Source License (BSL) — ZeroAuthorityDAO**
+Business Source License (BSL) v1.0 with explicit commercial-use permission and contact clause
 
-**Version 1.0 — Effective Date: January 1, 2022**
+---
 
-### 1. Definitions
+### Summary
 
-In this License:
+Introduce a Business Source License (BSL) v1.0 for ZeroAuthorityDAO codebases, effective January 1, 2022, with a clear grant allowing use of the **most recent commercial version**, plus an explicit escalation/contact clause for ambiguous or out-of-scope use.
 
-* **“Licensed Work”** means the software code, documentation, and associated materials made available by ZeroAuthorityDAO at or around **[https://www.zeroauthoritydao.com/](https://www.zeroauthoritydao.com/)**, including all updates released under this License.
-* **“Commercial Use”** means providing the Licensed Work or a derivative thereof for a fee, subscription, or other commercial benefit, including as a hosted service.
-* **“Permitted Commercial Version”** means the most recent commercial release of the Licensed Work as designated by ZeroAuthorityDAO and formally published on [https://www.zeroauthoritydao.com/](https://www.zeroauthoritydao.com/) or its official repositories.
-* **“Change Date”** means the earlier of:
+This aligns licensing intent with real-world usage while reducing ambiguity and accidental non-compliance.
 
-  1. **January 1, 2026**, or
-  2. The date ZeroAuthorityDAO elects to re-license the Licensed Work under the Change License.
-* **“Change License”** means the open-source license selected to govern the Licensed Work after the Change Date (default: **Apache License 2.0**).
+---
 
-### 2. Grant of Rights
+### Motivation
 
-Subject to all terms below:
+Current licensing language does not clearly:
 
-#### 2.1. Access and Use
+* Allow use of the most recent commercial version by default
+* Channel edge cases into human discussion instead of legal risk
+* Define a clear Change Date and post-conversion open-source path
 
-You are granted a worldwide, non-exclusive, royalty-free, non-sublicensable, non-transferable license to:
+BSL is designed to set strong defaults while keeping the door open for collaboration, not litigation.
 
-a. **Use, copy, modify, and create derivative works** of the Licensed Work for internal, academic, research, or commercial purposes, provided you comply with this License.
+---
 
-b. **Use the Permitted Commercial Version**, including the most recent commercial release, for commercial use (including hosting, distribution, and sale) without additional permission from ZeroAuthorityDAO.
+### What’s Included
 
-#### 2.2. Distribution
+* **Business Source License (BSL) v1.0**
+* **Effective Date:** January 1, 2022
+* **Change Date:** January 1, 2026 (or earlier at ZA’s election)
+* **Change License:** Apache 2.0 (default)
+* Explicit permission to use the **Permitted Commercial Version**
+* Clear restriction on competing hosted services prior to Change Date
+* Dedicated **Commercial Inquiries & Permissions** clause pointing to:
+  [https://linktr.ee/zeroauthoritydao](https://linktr.ee/zeroauthoritydao)
 
-You may distribute modifications or derivative works provided that:
+---
 
-a. This License is included in full.
+### Proposed License Text
 
-b. All material changes are clearly documented.
+(see full draft below / attached in this issue)
 
-c. The Licensed Work or derivatives are not re-licensed under another open-source license prior to the Change Date.
+> Business Source License (BSL) — ZeroAuthorityDAO
+> Version 1.0 — Effective Date: January 1, 2022
+>
+> Includes definitions, grant of rights, usage limitations, commercial escalation path, Change Date conversion, and standard warranty/liability disclaimers.
 
-### 3. Usage Limitations
+---
 
-Until the **Change Date**:
+### Why This Matters
 
-a. You may not offer the Licensed Work or derivative works as a **competing commercial product or hosted service**, except when using a Permitted Commercial Version or under a separate commercial agreement with ZeroAuthorityDAO.
+* Makes commercial intent explicit instead of implied
+* Reduces accidental license violations
+* Encourages builders to engage rather than fork quietly
+* Keeps protocol + platform aligned with long-term open-source conversion
 
-b. You may not remove, alter, or circumvent this License.
+Subtle but important: ambiguity is routed to conversation, not courtrooms.
 
-### 4. Commercial Inquiries and Permissions
+---
 
-If your intended use may fall outside the permissions granted by this License, or if you wish to enter into a separate commercial agreement, you must **get in touch with Zero Authority and the Trajan Foundation** via:
+### Open Follow-Ups (Optional, Not Blocking)
 
-**[https://linktr.ee/zeroauthoritydao](https://linktr.ee/zeroauthoritydao)**
+* Define “competing commercial service” more narrowly
+* Split licensing between protocol contracts and platform / agent code
+* Add SPDX identifier once finalized
 
-### 5. Change Date and License Conversion
+---
 
-On the **Change Date**, this License automatically converts to the **Change License**:
+### Acceptance Criteria
 
-a. All usage limitations expire.
-
-b. The Licensed Work may thereafter be used, modified, and distributed under the Change License.
-
-### 6. Attribution and Notices
-
-All copyright, trademark, and license notices must be preserved.
-
-### 7. Disclaimer of Warranty
-
-THE LICENSED WORK IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND.
-
-### 8. Limitation of Liability
-
-ZEROAUTHORITYDAO SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING FROM USE OF THE LICENSED WORK.
-
-### 9. Governing Law
-
-This License is governed by the laws of **[Insert Jurisdiction]**.
+* License file added to repo root
+* README references updated license
+* Effective Date and Change Date clearly stated
+* Contact clause included verbatim
 
 ---
 
