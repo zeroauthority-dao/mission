@@ -453,6 +453,18 @@ Or even shorter:
 
 ---
 
+## Platform & Contract Audit 
+
+Friedger does all of our audits. 
+
+Quests & Treasury Contract Audit 
+https://cocoa007.github.io/clarity-audit/quests.html
+
+Gig Marketplace & Bounties Contract Audit 
+https://source-of-clarity.com/guild/review_001_trustless_rewards/
+
+---
+
 ## Final framing note
 
 This is not about “jobs.”
