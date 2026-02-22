@@ -1,136 +1,72 @@
-Contract Audit Registry, Security Lineage, Vulnerability Disclosure & On-Chain Hash Index
+Business Source License
 
-Overview
-This file functions as a canonical protocol integrity record. It exists to preserve long-term security, governance continuity, and forensic traceability across the Zero Authority protocol.
+This license ("License") grants rights in specified software code (the "Code") 
+under a business-source-style license that applies one set of terms and 
+conditions (the "Pre-Change Terms") to the Code and all modified Code before a 
+specified date (the "Change Date"), and another set of terms and conditions 
+(the "Post-Change Terms") on and after the Change Date. The Change Date for 
+this license is 01 January 2015.
 
-It documents smart contract audits, interface consistency history, critical vulnerability disclosures, on-chain deployment references, cross-chain contract hashes, governance traceability, security lineage, protocol maintenance history, and audit anchoring.
+More about this License can be found at http​://company-name/Business_source.
 
-This is not a bug report.
-This is not a feature request.
-This is a protocol integrity record.
+ A. Pre-Change Terms: License, before 01 January 2015:
 
-Contract Audits
-All protocol audits are conducted by Friedger.
+ Prior to the Change Date, you have the non-exclusive, worldwide rights under 
+this License to copy, modify, display, use, and redistribute the Code solely 
+under the following conditions:
 
-Quests & Treasury Contract Audit
-TXID reference: quests.html
+ [Insert business source limitations appropriate to your business here, such 
+as: "The database size used by the Code is less than 1 Gigabyte, and the Code 
+is used in non-commercial contexts where neither you, the user nor any 
+distributor or service provider makes money, directly or indirectly, from using 
+or otherwise exercising your licensed rights in the Code or modified Code."]. 
+[The foregoing limitations are for illustrative purposes only. When designing 
+your business-specific, Pre-Change limitations, carefully consider such things 
+as: i) the differences between source and object code; ii) copyright and patent 
+rights; and iii) the impact on your business of all possible uses of the code, 
+including distribution, the creation and use of derivatives and collective 
+works, and the provision of cloud-based and other services that do not require 
+distribution of the Code.]
 
-Gig Marketplace & Bounties Contract Audit
-TXID reference: review_001_trustless_rewards
+ All copies and uses of original and modified Code are also subject to this 
+License. When copying or distributing original or modified Code, you must 
+conspicuously and appropriately publish on each copy an appropriate copyright 
+notice; keep intact all notices stating that this License applies to the 
+original or modified Code; keep intact all notices of the absence of any 
+warranty; and give all recipients a copy of this License along with the Code.
 
-Interface Consistency Record
-Reported by: BowTiedSirJonathan
-Date: June 26, 2025
+ If your desired use of the Code or modified Code does not meet all of the 
+above requirements, you MUST purchase a separate, commercial license for the 
+Code prior to all conflicting installations or other uses of the Code. You can 
+buy support/licenses from: ______________.
 
-Inconsistent Argument Order in Similar Functions
-The tokenBased-bounties and nft-bounties smart contracts expose equivalent functionality with different argument ordering. This does not affect contract correctness but introduces interface inconsistency that may cause confusion when interacting across contracts. Wallet extensions preserve argument labeling, maintaining clarity and usability.
+ Any attempt to use the Code outside the permitted scope of the Pre-Change 
+Terms will automatically terminate your rights under this License to this and 
+all future versions of the Code.
 
-Resolution
-Semantic bug resolved in commit:
-zeroauthority-dao/platform-v2-base@54b7f45
+ TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE CODE OR ANY SERVICES OR WORK 
+PRODUCT PROVIDED UNDER OR IN CONNECTION WITH WITH THIS LICENSE ARE PROVIDED ON 
+AN "AS IS" BASIS. YOU EXPRESSLY WAIVE ALL WARRANTIES, WHETHER EXPRESS OR 
+IMPLIED, INCLUDING (WITHOUT LIMITATION) WARRANTIES OF MERCHANTABILITY, FITNESS 
+FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, SYSTEM INTEGRATION, AND ACCURACY OF 
+INFORMATIONAL CONTENT.
 
-This record is preserved for historical traceability and interface lineage documentation.
+ On the Change Date, the Pre-Change Terms shall automatically terminate and 
+shall be replaced with the Post-Change Terms described in Section B, below.
 
-Critical Vulnerability Disclosure
-Severity: Critical
-Impact: Contract fund drainage risk
-Affected Component: Gig contract
+ B. Post-Change Terms: License after, and including, 01 January 2015:
 
-A critical vulnerability was identified that enabled draining of the gig contract. This represents a security-class financial exploit vector and a funds-at-risk protocol failure mode.
+ On and after the Change Date, the software code is licensed to you pursuant to 
+version 2 or later of the GNU General Public License, as follows:
 
-This disclosure exists to ensure permanent incident traceability, governance transparency, security lineage continuity, risk model completeness, future auditor visibility, protocol forensics integrity, and institutional memory preservation.
+ This program is free software; you can redistribute it and/or modify it under 
+the terms of the GNU General Public License as published by the Free Software 
+Foundation; version 2 or later of the License.
 
-This is a security disclosure record, not a live exploit report.
+ This program is distributed in the hope that it will be useful, but WITHOUT 
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-Contract Hash Registry & On-Chain References
-Stacks + BASE (Ethereum L2)
-
-This section serves as the canonical on-chain registry for all deployed Zero Authority smart contracts across protocol versions and networks.
-
-Purposes include forensic traceability, audit verification, governance transparency, security anchoring, protocol archaeology, deployment lineage, incident response grounding, and cross-chain verification.
-
-Zero Authority Smart Contracts — v1
-Stacks Mainnet
-
-Cerulean-Marketplace-v1
-SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.Cerulean-Marketplace-v1
-
-Cerulean-NFT-Bounties-v1
-SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.Cerulean-NFT-Bounties-v1
-
-Cerulean-SIP10-Bounties-v1
-SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.Cerulean-SIP10-Bounties-v1
-
-Cerulean-badge-test
-SP1ZCYG0D3HCK2F7SY8VH9ZREB0JWCBSAPFNS8V5Z.Cerulean-badge-test
-
-Zero Authority Smart Contracts — v2
-Stacks Mainnet / Testnet
-
-Cerulean-badge-test
-SP1ZCYG0D3HCK2F7SY8VH9ZREB0JWCBSAPFNS8V5Z.Cerulean-badge-test
-
-ZADAO-token-whitelist-v1
-SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.ZADAO-token-whitelist-v1
-
-ZADAO-V2-MultiW-Bounty
-0d05df760fecd5d8a2719adbce5d7f2223c555304e71d3752fbebb246096dfb3
-
-ZADAO-V2-gigs
-0x11822932a28fb1f3a035e4df718718e04e626fcc9246cb0b6f45c82627c100fb
-
-ZADAO-V2-token-bounties
-0xe928afa87c5df3fc0c24d82765f50ee1fe20f83b8277c1a378e8c765746f8746
-
-trajan-endorse-v0_1_0
-SP25W1B7YX3F20S598J4EXEE9HZ0XHY6PNVTT6FA3.trajan-endorse-v0_1_0
-
-za-dao-endorsement (testnet)
-0xba0b8028ffb8b6760950e06aef9edb965ea60d23609e24d12220b5166ad38842
-
-Active Production Configuration
-
-ZADAO-V2a-gigs
-0x00ffda6e14c66e295226fe08bfdfd4dc5e8f53219c706b0437cd3afab066270b
-
-ZADAO-token-whitelist-v2
-0x58104148bac708519cc7d6fd3795d449bc3489c536b802a7d15902c56ef4d50c
-
-ZADAO-token-whitelist-v1
-SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.ZADAO-token-whitelist-v1
-
-Production usage mapping
-Gigs: ZADAO-token-whitelist-v2
-Bounties: ZADAO-token-whitelist-v1
-
-BASE (Ethereum L2)
-
-Base Sepolia Testnet
-Deployment registry file: deployment-summary-base.json
-
-Base Mainnet
-Deployment registry file: deployment-summary-base.json
-
-Base Mainnet Contract
-0xB06B3537E473E68E16638BA6aCe125f57c207F8C
-
-Ethereum Contract Reference
-
-ZADAOTokenWhitelistV1 (ETH)
-0x32D0BBC22211CF387F23CFA87AaDdFe3DAc18FCE
-
-PR Reference
-platform-v2/pull/45
-
-Source Reference
-ZADAOTokenWhitelistV1.sol (lines 74–94)
-
-Quests & Treasury — Stacks Mainnet
-
-ZADAO-Quest-V1
-0xaff238d4d72fd9eff573219beb240fecb9d4a3cc7611cf04f55d814939209435
-
-ZADAO-Treasury-V1
-0x3e02397d8989b0ff27282651edf5e8ea70f9ee15c5fee68cad749f366fd6a11c
-
-This file is designed as a long-horizon protocol record, not a developer quickstart.
+ You should have received a copy of the GNU General Public License along with 
+this program; if not, write to the Free Software Foundation, Inc., 59 Temple 
+Place, Suite 330, Boston, MA 02111-1307 USA.
