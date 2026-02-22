@@ -1,104 +1,55 @@
-# Contract Audit Registry, Security Lineage, Vulnerability Disclosure & On-Chain Hash Index
+Contract Audit Registry, Security Lineage, Vulnerability Disclosure & On-Chain Hash Index
 
-## Overview
+Overview
+This file functions as a canonical protocol integrity record. It exists to preserve long-term security, governance continuity, and forensic traceability across the Zero Authority protocol.
 
-This repository entry functions as a **canonical protocol integrity record**.
-It is designed to preserve long-term security, governance, and forensic continuity across the Zero Authority protocol.
-
-It documents:
-
-* Smart contract audits
-* Interface consistency history
-* Critical vulnerability disclosures
-* On-chain deployment references
-* Cross-chain contract hashes
-* Governance traceability
-* Security lineage
-* Protocol maintenance history
-* Audit anchoring and forensic records
+It documents smart contract audits, interface consistency history, critical vulnerability disclosures, on-chain deployment references, cross-chain contract hashes, governance traceability, security lineage, protocol maintenance history, and audit anchoring.
 
 This is not a bug report.
 This is not a feature request.
-This is a **protocol integrity record**.
+This is a protocol integrity record.
 
----
+Contract Audits
+All protocol audits are conducted by Friedger.
 
-## Contract Audits
+Quests & Treasury Contract Audit
+TXID reference: quests.html
 
-All protocol audits are conducted by **Friedger**.
+Gig Marketplace & Bounties Contract Audit
+TXID reference: review_001_trustless_rewards
 
-**Quests & Treasury Contract Audit**
-TXID reference: `quests.html`
+Interface Consistency Record
+Reported by: BowTiedSirJonathan
+Date: June 26, 2025
 
-**Gig Marketplace & Bounties Contract Audit**
-TXID reference: `review_001_trustless_rewards`
+Inconsistent Argument Order in Similar Functions
+The tokenBased-bounties and nft-bounties smart contracts expose equivalent functionality with different argument ordering. This does not affect contract correctness but introduces interface inconsistency that may cause confusion when interacting across contracts. Wallet extensions preserve argument labeling, maintaining clarity and usability.
 
----
-
-## Interface Consistency Record
-
-**Reported by:** BowTiedSirJonathan
-**Date:** June 26, 2025
-
-### Inconsistent Argument Order in Similar Functions
-
-The `tokenBased-bounties` and `nft-bounties` smart contracts expose equivalent functionality with differing argument order.
-This does not affect contract correctness, but creates interface inconsistency that can introduce user confusion during cross-contract interaction.
-
-Wallet extensions preserve argument labeling, maintaining interpretability and functional clarity.
-
-**Resolution:**
+Resolution
 Semantic bug resolved in commit:
-`zeroauthority-dao/platform-v2-base@54b7f45`
+zeroauthority-dao/platform-v2-base@54b7f45
 
 This record is preserved for historical traceability and interface lineage documentation.
 
----
+Critical Vulnerability Disclosure
+Severity: Critical
+Impact: Contract fund drainage risk
+Affected Component: Gig contract
 
-## Critical Vulnerability Disclosure
+A critical vulnerability was identified that enabled draining of the gig contract. This represents a security-class financial exploit vector and a funds-at-risk protocol failure mode.
 
-**Severity:** Critical
-**Impact:** Contract fund drainage risk
-**Affected Component:** Gig contract
+This disclosure exists to ensure permanent incident traceability, governance transparency, security lineage continuity, risk model completeness, future auditor visibility, protocol forensics integrity, and institutional memory preservation.
 
-A critical vulnerability was identified that enabled draining of the gig contract.
-This represents a security-class financial exploit vector and a funds-at-risk protocol failure mode.
+This is a security disclosure record, not a live exploit report.
 
-This disclosure exists to ensure:
-
-* Permanent incident traceability
-* Governance transparency
-* Security lineage continuity
-* Risk model completeness
-* Future auditor visibility
-* Protocol forensics integrity
-* Institutional memory preservation
-
-This is a **security disclosure record**, not a live exploit report.
-
----
-
-## Contract Hash Registry & On-Chain References
-
+Contract Hash Registry & On-Chain References
 Stacks + BASE (Ethereum L2)
 
-This section serves as the **canonical on-chain registry** for all deployed Zero Authority smart contracts across protocol versions and networks.
+This section serves as the canonical on-chain registry for all deployed Zero Authority smart contracts across protocol versions and networks.
 
-Core purposes:
+Purposes include forensic traceability, audit verification, governance transparency, security anchoring, protocol archaeology, deployment lineage, incident response grounding, and cross-chain verification.
 
-* Forensic traceability
-* Audit verification
-* Governance transparency
-* Security anchoring
-* Protocol archaeology
-* Deployment lineage
-* Incident response grounding
-* Cross-chain verification
-
----
-
-## Zero Authority Smart Contracts — v1
-
+Zero Authority Smart Contracts — v1
 Stacks Mainnet
 
 Cerulean-Marketplace-v1
@@ -113,10 +64,7 @@ SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.Cerulean-SIP10-Bounties-v1
 Cerulean-badge-test
 SP1ZCYG0D3HCK2F7SY8VH9ZREB0JWCBSAPFNS8V5Z.Cerulean-badge-test
 
----
-
-## Zero Authority Smart Contracts — v2
-
+Zero Authority Smart Contracts — v2
 Stacks Mainnet / Testnet
 
 Cerulean-badge-test
@@ -140,9 +88,7 @@ SP25W1B7YX3F20S598J4EXEE9HZ0XHY6PNVTT6FA3.trajan-endorse-v0_1_0
 za-dao-endorsement (testnet)
 0xba0b8028ffb8b6760950e06aef9edb965ea60d23609e24d12220b5166ad38842
 
----
-
-## Active Production Configuration
+Active Production Configuration
 
 ZADAO-V2a-gigs
 0x00ffda6e14c66e295226fe08bfdfd4dc5e8f53219c706b0437cd3afab066270b
@@ -153,27 +99,22 @@ ZADAO-token-whitelist-v2
 ZADAO-token-whitelist-v1
 SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.ZADAO-token-whitelist-v1
 
-**Production usage mapping:**
+Production usage mapping
+Gigs: ZADAO-token-whitelist-v2
+Bounties: ZADAO-token-whitelist-v1
 
-Gigs → ZADAO-token-whitelist-v2
-Bounties → ZADAO-token-whitelist-v1
-
----
-
-## BASE (Ethereum L2)
+BASE (Ethereum L2)
 
 Base Sepolia Testnet
-Deployment registry file: `deployment-summary-base.json`
+Deployment registry file: deployment-summary-base.json
 
 Base Mainnet
-Deployment registry file: `deployment-summary-base.json`
+Deployment registry file: deployment-summary-base.json
 
 Base Mainnet Contract
 0xB06B3537E473E68E16638BA6aCe125f57c207F8C
 
----
-
-## Ethereum Contract Reference
+Ethereum Contract Reference
 
 ZADAOTokenWhitelistV1 (ETH)
 0x32D0BBC22211CF387F23CFA87AaDdFe3DAc18FCE
@@ -184,9 +125,7 @@ platform-v2/pull/45
 Source Reference
 ZADAOTokenWhitelistV1.sol (lines 74–94)
 
----
-
-## Quests & Treasury — Stacks Mainnet
+Quests & Treasury — Stacks Mainnet
 
 ZADAO-Quest-V1
 0xaff238d4d72fd9eff573219beb240fecb9d4a3cc7611cf04f55d814939209435
@@ -194,6 +133,4 @@ ZADAO-Quest-V1
 ZADAO-Treasury-V1
 0x3e02397d8989b0ff27282651edf5e8ea70f9ee15c5fee68cad749f366fd6a11c
 
----
-
-This README is designed as a **long-horizon protocol record**, not a developer quickstart.
+This file is designed as a long-horizon protocol record, not a developer quickstart.
